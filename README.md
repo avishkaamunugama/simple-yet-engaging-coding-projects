@@ -1,5 +1,5 @@
 # Some Interesting Projects Done While at University
-A collection of some of the most interesting projects during the first 2 years at university.
+A collection of some of the most interesting projects done during the first 2 years at university.
 
 1. [Tower of Hanoi (2019)](https://github.com/avishkaamunugama/some-interesting-projects-done-while-at-university/tree/main/01-tower-of-hanoi-2018)
 2. [Whack a Mole Game (2019)](https://github.com/avishkaamunugama/some-interesting-projects-done-while-at-university/tree/main/02-whack-a-mole-game-2018)
