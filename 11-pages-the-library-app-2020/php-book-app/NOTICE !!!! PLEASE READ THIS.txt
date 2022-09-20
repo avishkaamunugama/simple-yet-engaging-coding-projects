@@ -1,0 +1,5 @@
+This web appbuilt using php uses mysql as the database, so create a bd by name of the sql file and import the file to that db.
+
+The db , table , coloumn names might sound weird. This was a project I built for a university coursework according to a differnt scenario they provided ,
+to the whole purpose of uploading to  gitHub I changed the front end names and stuff but didn't feel like taking the hassle of changing the db side.
+So pardon me forks , hope you'll not mind it alot. 

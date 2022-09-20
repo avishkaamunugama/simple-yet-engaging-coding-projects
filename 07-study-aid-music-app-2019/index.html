@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./svg/titleIMG.ico" />
+    <title>Study Aid</title>
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="vid-container">
+            <video id="video" loop src="./video/8.mp4"></video>
+        </div>
+
+
+        <div class="time-select">
+            <button data-time="900">15 minutes</button>
+            <button data-time="1800">30 minutes</button>
+            <button data-time="2700">45 minutes</button>
+            <button data-time="3600">1 hour</button>
+            <button data-time="eternity">Eternity</button>
+
+        </div>
+
+
+        <div class="player-container">
+            <audio class="song" src="./sounds/8.mp3"></audio>
+
+            <img src="./svg/play.svg" alt="play" class="play" />
+            <svg class="track-ouline" width="453" height="453" viewBox="0 0 453 453" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20" />
+            </svg>
+            <svg class="moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20" />
+            </svg>
+            <h3 class="time-display"></h3>
+            <button id="fullscreen">
+                <h3>View FullScreen</h3>
+            </button>
+        </div>
+
+
+        <div class="sound-picker">
+            <div class="sound-column1">
+                <button data-sound="./sounds/1.mp3" data-video="./video/1.mp4">
+                    <img src="./svg/1.svg" alt="rain">
+                </button>
+                <button data-sound="./sounds/2.mp3" data-video="./video/2.mp4">
+                    <img src="./svg/2.svg" alt="classical">
+                </button>
+                <button data-sound="./sounds/3.mp3" data-video="./video/3.mp4">
+                    <img src="./svg/3.svg" alt="instrumental">
+                </button>
+            </div>
+            <div class="sound-column2">
+                <button data-sound="./sounds/4.mp3" data-video="./video/4.mp4">
+                    <img src="./svg/4.svg" alt="rain">
+                </button>
+                <button data-sound="./sounds/5.mp3" data-video="./video/5.mp4">
+                    <img src="./svg/5.svg" alt="classical">
+                </button>
+                <button data-sound="./sounds/6.mp3" data-video="./video/6.mp4">
+                    <img src="./svg/6.svg" alt="instrumental">
+                </button>
+            </div>
+            <div class="sound-column3">
+                <button data-sound="./sounds/7.mp3" data-video="./video/7.mp4">
+                    <img src="./svg/7.svg" alt="rain">
+                </button>
+                <button data-sound="./sounds/8.mp3" data-video="./video/8.mp4">
+                    <img src="./svg/8.svg" alt="classical">
+                </button>
+                <button data-sound="./sounds/9.mp3" data-video="./video/9.mp4">
+                    <img src="./svg/9.svg" alt="instrumental">
+                </button>
+
+            </div>
+            <div class="sound-column4">
+                <button data-sound="./sounds/10.mp3" data-video="./video/10.mp4">
+                    <img src="./svg/10.svg" alt="rain">
+                </button>
+                <button data-sound="./sounds/11.mp3" data-video="./video/11.mp4">
+                    <img src="./svg/11.svg" alt="classical">
+                </button>
+                <button data-sound="./sounds/12.mp3" data-video="./video/12.mp4">
+                    <img src="./svg/12.svg" alt="instrumental">
+                </button>
+            </div>
+            <div class="sound-column5">
+                <button data-sound="./sounds/13.mp3" data-video="./video/13.mp4">
+                    <img src="./svg/13.svg" alt="rain">
+                </button>
+                <button data-sound="./sounds/14.mp3" data-video="./video/14.mp4">
+                    <img src="./svg/14.svg" alt="classical">
+                </button>
+                <button data-sound="./sounds/15.mp3" data-video="./video/15.mp4">
+                    <img src="./svg/15.svg" alt="instrumental">
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
